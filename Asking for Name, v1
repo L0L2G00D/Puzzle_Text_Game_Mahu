@@ -1,0 +1,21 @@
+// Code asking for name & checking for numbers
+let nam = prompt("What would you like to be called(name)?"); 
+while (l == 0) {
+  if (isNaN(+nam) !== true) {
+    if (nam === '69' || nam === '420') {
+      console.log(`( ͡° ͜ʖ ͡°), We don't call people numbers, such as "${nam}" `);
+      nam = prompt("What would you like to be called?");
+    } else {
+      if (nam === '') {
+        console.log(`Sorry, We need to call you something`);
+        nam = prompt("What would you like to be called?");
+      } else {
+        console.log(`Sorry, We don't call people numbers, such as "${nam}" `);
+        nam = prompt("What would you like to be called?");
+      }
+    }
+  } else {
+    l++;
+  }
+}
+const _Name = nam.toLowerCase().trim();
