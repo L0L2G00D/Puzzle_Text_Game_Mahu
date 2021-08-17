@@ -1,0 +1,18 @@
+// Creating all required variables
+// This stores whether the loop should be completed
+let l = 0;
+// This stores the current answer from the player
+let answer;
+//This stores a answer from the player in number version
+let nswer;
+//This stores information about the last answer
+let panswer;
+// This Variable defines What "storyline" the game is currently on, 0 = Neutral, -1 = Bad, 1 = Good
+let SL;
+// This variable Skips all questions if an ending sequence has been achieved
+let E = false;
+//New introductory sequence
+console.log("Welcome to [Insert Game Title]")
+console.log("")
+console.log("This a text based puzzle game which you will need to figure out the best answer to the questions for you.")
+console.log("")
