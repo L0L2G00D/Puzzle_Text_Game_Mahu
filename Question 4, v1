@@ -1,0 +1,139 @@
+//question 4
+if(E !== true){
+  if(SL == 1){
+    //good storyline
+    while(l == 0){
+      console.log("");
+      console.log("Why am I the bad guy?");
+      console.log("1. Because I did something bad.              2. Because [ⱤɆ₣ɆⱤɆ₦₵Ɇ ₥ł₴₴ł₦₲] said so.");
+      console.log("3. Because that’s the way the game is.       4. Because you want me to be.");
+      console.log("5. Because I haven’t done something good.      6.Because I won’t let you answer how you want to answer.");
+      console.log("7. Because it’s fun to make me the bad guy.");
+      console.log("");
+      console.log("If you want to answer me please answer with the numbers. You can use the word version of each number (i.e one = 1)");
+      console.log("");
+      console.log("If you would prefer, you can just do whatever [ⱤɆ₣ɆⱤɆ₦₵Ɇ ₥ł₴₴ł₦₲] wants you to do as always.");
+      if(Qfourg.fo.indexOf(answer.toLowerCase().trim()) > -1){
+        E = true;
+        SL = 50;
+        l++;
+      } else {
+        if(Qfourg.tt.indexOf(answer.toLowerCase().trim()) > -1){
+          E = true;
+          SL = 60;
+          l++;
+        } else {
+          if (Qfourg.fs.indexOf(answer.toLowerCase().trim()) > -1){
+            E = true;
+            SL = 70;
+            l++;
+          } else {
+            if(Qfourg.sx.indexOf(answer.toLowerCase().trim()) > -1){
+              E = true;
+              SL = 80;
+              l++;
+            } else {
+              if(Qfourg.ih.indexOf(answer.toLowerCase().trim()) > -1){
+                E = true;
+                SL = 90;
+                l++;
+              } else {
+                if(Qfourg.idh.indexOf(answer.toLowerCase().trim()) > -1){
+                  console.log(`What are you doing ${_Name}, if you really don’t want to follow along with me then answer the question! If you want to follow me, just answer what I told you to.`);
+                } else {
+                  if(Qfourg.wt.indexOf(answer.toLowerCase().trim()) > -1){
+                    E = true;
+                    SL = 100;
+                    l++;
+                  } else {
+                    if(Qfourg.zo.indexOf(answer.toLowerCase().trim()) > -1){
+                      E = true;
+                      SL = 110;
+                      l++;
+                    } else {
+                      console.log(`This is obviously a last-ditch effort from the game to try and get you to give into it. Although it wasn’t lying about you only needing to do what I want you to do. All you need to do, ${_Name}, is answer with is I hate you game`);
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  } else {
+    if(SL == 0){
+      //neutral storyline
+      while(l == 0){
+        console.log("")
+        if(Qfourn.gm.indexOf(answer.toLowerCase().trim()) > -1){
+          E = true;
+          SL = 120;
+          l++;
+        } else {
+          if(Qfourn.to.indexOf(answer.toLowerCase().trim()) > -1){
+            E = true;
+            SL = 130;
+            l++;
+          } else {
+            if(Qfourn.me.indexOf(answer.toLowerCase().trim()) > -1){
+              E = true;
+              SL = 140;
+              l++;
+            } else {
+              if(Qfourn.nn.indexOf(answer.toLowerCase().trim()) > -1){
+                console.log("You need to pick someone - ĐɎ₮");
+                console.log("Yes, don’t support the game, if you want you can support me by using my name, I mean who else could you pick?")
+              } else {
+                if(Qfourn.rm.indexOf(answer.toLowerCase().trim()) > -1){
+                  console.log(`You are just as bad at spelling names as the game ${_Name}, I mean how they use different letters for their own name.`);
+                } else {
+                  if(Qfourn.rvm.indexOf(answer.toLowerCase().trim()) > -1){
+                    E = true;
+                    SL = 150;
+                    l++;
+                  } else {
+                    console.log("I think that I should decide what you should do, and you should choose neither as a way of picking me.")
+                  }
+                }
+              }              
+            }
+          }
+        }
+    }
+    } else {
+      // bad storyline
+      while(l == 0){
+        console.log("");
+        console.log("Did you enjoy playing? y/n")
+        if(Qfourb.ye.indexOf(answer.toLowerCase().trim()) > -1){
+          console.log("Brilliant");
+          E = true;
+          SL = 160;
+          l++;
+        } else {
+          if(Qfourb.no.indexOf(answer.toLowerCase().trim()) > -1){
+            console.log("That's a shame");
+            E = true;
+            SL = 160;
+            l++;
+          } else {
+            if(Qfourb.cd.indexOf(answer.toLowerCase().trim()) > -1){
+              E = true;
+              SL = 160;
+              l++;
+            } else {
+              if(Qfourb.ncd.indexOf(answer.toLowerCase().trim()) > -1){
+                E = true;
+                SL = 170;
+                l++;
+              } else {
+                console.log("This is an honest question, not asked by ĐɎ₮ or [ⱤɆ₣ɆⱤɆ₦₵Ɇ ₥ł₴₴ł₦₲]. But if you’re that kind of player, you can just answer Credits to finish the game.");
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
