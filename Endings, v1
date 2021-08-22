@@ -1,0 +1,56 @@
+}
+//unfinished
+console.log("the endings are undeveloped as of now (aka you win)");
+
+//endings
+if(SL == 10){
+console.log(`ending one`);
+}
+if(SL == 20){
+console.log(`ending two`);
+}
+if(SL == 30){
+console.log(`ending three`);
+}
+if(SL == 40){
+console.log(`ending four`);
+}
+if(SL == 50){
+console.log(`ending five`);
+}
+if(SL == 60){
+console.log(`ending six`);
+}
+if(SL == 70){
+console.log(`ending seven`);
+}
+if(SL == 80){
+console.log(`ending eight`);
+}
+if(SL == 90){
+console.log(`ending nine`);
+}
+if(SL == 100){
+console.log(`ending ten`);
+}
+if(SL == 110){
+console.log(`ending eleven`);
+}
+if(SL == 120){
+console.log(`ending twelve`);
+}
+if(SL == 130){
+console.log(`ending thirteen`);
+}
+if(SL == 140){
+console.log(`ending fourteen`);
+}
+if(SL == 150){
+console.log(`ending fifteen`);
+}
+if(SL == 160){
+console.log(`ending sixteen`);
+}
+if(SL == 170){
+  console.log(`ending seventeen`)
+}
