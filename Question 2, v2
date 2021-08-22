@@ -1,0 +1,97 @@
+//Question 2 storyline seperator
+if (SL == 1) { 
+  // Good storyline Question 2
+  while (l == 0) {
+    console.log("");
+    console.log(`Do you understand How to play ${_Name}?`);
+    console.log(`You can answer with y/n`);
+    answer = prompt(_Name + "?");
+    if(Qtwog.y.indexOf(answer.toLowerCase().trim()) > -1){
+      l++;
+      SL = 0;
+    } else {
+      if(Qtwog.n.indexOf(answer.toLowerCase().trim()) > -1){
+        console.log(`Sorry, this R̶o̶u̶t̶e̶  feature is unavailable - ₱₲Ӿ`);
+      } else {
+        if(Qtwog.m.indexOf(answer.toLowerCase().trim()) > -1) {
+          console.log(`Ok, you do understand the proper way to play,`);
+          console.log(`now try looking for another not answer again ${_Name}`);
+        } else {
+          if(Qtwog.n0.indexOf(answer.toLowerCase().trim()) > -1){
+            console.log(`ERROR ERROR ERROR ERROR ERROR`);
+            console.log(`ERROR ERROR ERROR ERROR ERROR`);
+            console.log(`ERROR                   ERROR`);
+            console.log(`ERROR   Answer Denied   ERROR`);
+            console.log(`ERROR                   ERROR`);
+            console.log(`ERROR ERROR ERROR ERROR ERROR`);
+            console.log(`ERROR ERROR ERROR ERROR ERROR`);
+            console.log("");
+            console.log(`*The solution won’t be the same every time, the game will try and stop you. Find something new.*`);
+          } else {
+            if(Qtwog.d.indexOf(answer.toLowerCase().trim()) > -1){
+              console.log(`Remember that’s what it told you to answer ${_Name}, answer something that’s “not” the answer.`);
+            } else {
+              if(Qtwog.nd.indexOf(answer.toLowerCase().trim()) > -1){
+                l++;
+                SL = 1;
+              } else {
+                if(Qtwog.ny.indexOf(answer.toLowerCase().trim()) > -1){
+                  console.log(`So no?`);
+                  console.log(`Sorry, this R̶o̶u̶t̶e̶ feature is unavailable - ₱₲Ӿ`);
+                } else {
+                    console.log(`ERROR ERROR ERROR ERROR ERROR ERROR`);
+                    console.log("");
+                    console.log(`         Unexpected Answer:${answer}`);
+                    console.log("");
+                    console.log(`ERROR ERROR ERROR ERROR ERROR ERROR`);
+                    console.log("");
+                    console.log("This game is still in development, so you might have entered an acceptable answer, just it hasn’t been considered");
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+} else {
+  // Bad storyline Question 2
+  while (l == 0) {
+    console.log("");
+    console.log(`Do you agree that the game is perfect in every way, without interference from [ⱤɆ₣ɆⱤɆ₦₵Ɇ ₥ł₴₴ł₦₲]?`);
+    console.log(`You can answer with y/n`);
+    answer = prompt(_Name + "?");
+    if(Qtwob.y.indexOf(answer.toLowerCase().trim()) > -1){
+      l++;
+      SL = 10;
+      E = true;
+    } else {
+      if(Qtwob.a.indexOf(answer.toLowerCase().trim()) > -1){
+        console.log(`There is only one answer, ${_Name} - ₱₲Ӿ`);
+        E = true;
+      } else {
+        //Mechanism for locking out player from answering
+        if(E !== true){
+          if(Qtwob.s.indexOf(answer.toLowerCase().trim()) > -1){
+            console.log(`You need to answer more than ${answer}, did you really think the answer would be just “${answer}” ?`);
+          } else {
+            if(Qtwob.si.indexOf(answer.toLowerCase().trim()) > -1){
+              l++;
+              SL = -1;
+            } else {
+              if(Qtwob.re.indexOf(answer.toLowerCase().trim()) > -1){
+                console.log(`You’re not supposed to know that, don’t think it will help you here ${_Name}`);
+                console.log('-  319696694816|362546491250');
+              } else {
+                  console.log(`Ok ${_Name}, You need to be careful from now on, one slip up and I won’t be able to help you at all, whatever you do. `);
+                  console.log(`Don’t answer “something it told you to answer”, or else you will be at the complete mercy of the game, instead answer something I told you to answer.`);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+//Reseting loop breaking
+l = 0;
