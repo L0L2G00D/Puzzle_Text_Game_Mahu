@@ -1,0 +1,59 @@
+
+//These are the array/list objects for every question (except for the name question bc it doesn't need it) and the possible answers, the names say which question and what storyline (i.e. Qthreen means Question three storyline neutral).
+const Qone = {
+  p: ["p", "play"],
+  h: ["h","how","how to play",],
+  ph: ["with p or h", "p or h"],
+  hp: ["h or p", "h or p with",`again ${_Name}`,],
+f: ["found it", "a not answer", "not answer"],
+  pp: ["how you play properly","play properly"],
+  t: ["that", "not that"],
+  s: ["stuff"],
+  re: [""]
+};
+const Qtwog = {
+  y: ["y","ye","ya","yes"],
+  n: ["n", "no"],
+  m: ["m", "maybe", "y/n", "with y/n", "i dont know", "i don't know", "idk"],
+  n0: ["n/y", `again ${_Name}`],
+  d: ["denied"],
+  nd: ["not denied", "not no", `not again ${_Name}`],
+  ny: ["not yes"],
+  re: [""]
+};
+const Qtwob = {
+  y: ["y","ye","ya","yes"],
+  a: ["n", "no", "y/n","something it told you to answer"],
+  s: ["something"],
+  si: ["something i told you to answer"],
+  re: [`n/y`, `again ${_Name}`]
+};
+const Qthreen = {
+  t: ["2", "two"],
+  pl: ["1+1", "7", "7 lines", "math", "mathematics", "maths", "|+|", "1+1", "|+| =", "1+1 =", "|+|=", "1+1="],
+  npl: ["not 1+1", "not 7", "not 7 lines", "not math", "not mathematics", "not maths", "not |+|", "not 1+1", "not |+| =", "not 1+1 =", "not |+|=", "not 1+1="]
+};
+const Qfourg = {
+  fo: ['one','1','five','5'],
+  tt: ['two','2','three','3'],
+  fs: ['four','4','seven','7'],
+  sx: ['six','6'],
+  ih: ['i hate you game', 'i hate you the game', 'i hate you bob'],
+  idh:['i dont hate you game',"i don't hate you game", "i dont hate you bob", "i don't hate you bob"],
+  wt: ['what i told you to', "what it told you"],
+  zo: ['0','zero','none']
+};
+const Qfourn = {
+  gm: ['1','one','the game','game','bob'],
+  to: ['2','two'],
+  me: ['me','myself'],
+  nn: ['none','neither','zero','0'],
+  rm: ['reference missing'],
+  rvm: ['reverence missing','reverend missing']
+};
+const Qfourb = {
+  ye: ["y","ye","ya","yes"],
+  no: ["no","n"],
+  cd: ["credit","credits"],
+  ncd: ["no credit","no credits"]
+};
